@@ -236,13 +236,15 @@ public class NeuralNetwork implements Serializable{
     for(int x=0;x<28;x++){
       for(int y=0;y<28;y++){
         Color c = new Color(image.getRGB(x,y));
-        numberimage[x][y]= 0.2126*c.getRed() + 0.7152*c.getGreen() + 0.0722*c.getBlue();
-        if(c.getRed()>240&&c.getBlue()>240&&c.getGreen()>240){numberimage[x][y]=0.;}
-      /*  System.out.println(numberimage[x][y].intValue());
+        numberimage[x][y]= 255.-(0.2126*c.getRed() + 0.7152*c.getGreen() + 0.0722*c.getBlue());
+        }
+      /*
+if(c.getRed()>240&&c.getBlue()>240&&c.getGreen()>240){numberimage[x][y]=0.;
+      System.out.println(numberimage[x][y].intValue());
         System.out.println(numberimage[x][y].doubleValue());
 */
       }
-    }
+
     for(int x=0;x<28;x++){
       for(int y=0;y<28;y++){
         Color c =new Color(0,0,0,numberimage[x][y].intValue());
