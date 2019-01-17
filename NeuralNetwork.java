@@ -273,7 +273,7 @@ if(c.getRed()>240&&c.getBlue()>240&&c.getGreen()>240){numberimage[x][y]=0.;
     for(int i=0;i<100;i++){
       System.out.println(popsy.What(Arrays.copyOfRange(input[i],1,785)));}
       */
-    NeuralNetwork popsy= dakhal("popsy3.txt");
+    NeuralNetwork popsy= dakhal("popsyz.txt");
     if(args.length==2){
       if(args[1].equals("True")){
         System.out.println("Wazzap, this is an image of the digit "+popsy.What(pic(args[0])));}
