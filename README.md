@@ -20,6 +20,8 @@ How to Compile/Run:
           
 Note: There should be a greater rate of accuracy with the images I created because of the way the network it was trained. It was trained to recognize examples in the MNIST DataSet and has acheived an accuracy rate of 93% was that data set. I however believe that because I didn't implement a technique called dropout, the network was overfitted to these examples. My final Product is a Neuralwork saved as a serialized object that is for all practical purposes a linear function. Most of the code in the class was for me to develop the neural network and has no implications for the user.
 
+Example with Running the Network on a file named apcs.png:"java NeuralNetwork apcs.png False"
+
 
 Log:
 
