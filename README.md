@@ -14,9 +14,13 @@ How to Compile/Run:
 4. Second Argument is "True" or "False" with this exact capitalization, Please select true if the file is in MNIST Format like the ones I included in the Repo. False otherwise.
 
 5. Directions for creating your own images:
-          White Background Black color or the following HTML Color: 242424. Its just very Dark Grey.
-          Save as Png jpg or GIF
-          Run in Terminal.
+
+          >>White Background, Black brush or the following HTML Color: 242424. Its just very Dark Grey.(Test different burhes and opacities)
+          
+          >>Save as Png jpg or GIF
+          
+          >>Run in Terminal.
+          
           
 Note: There should be a greater rate of accuracy with the images I created because of the way the network it was trained. It was trained to recognize examples in the MNIST DataSet and has acheived an accuracy rate of 93% was that data set. I however believe that because I didn't implement a technique called dropout, the network was overfitted to these examples. My final Product is a Neuralwork saved as a serialized object that is for all practical purposes a linear function. Most of the code in the class was for me to develop the neural network and has no implications for the user.
 
