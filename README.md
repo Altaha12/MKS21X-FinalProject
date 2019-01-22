@@ -31,6 +31,7 @@ Log:
 
 01/05:Created Neuron Class Which was initiall intended as the subunit of the network. I however Determined that the Class was unneccesary and that all the information it holds could be simply stored in avery large multi-dimensional array. Class was never used afterwards or tested.
 
+01/06: Created Class Network and started writing code but hit dead end when I was unable to determine how to store the weights and biases for each Neuron in manner that was intuitive and easy to deal with.
 
 01/07-01/10: Spent Some times reading the book on this link http://neuralnetworksanddeeplearning.com/index.html in order to understand Neural Networks and how they learned. Spent sometime on the math and the algorith so I can implement it properly. I also Planned out everything on paper, attached to prototype. This stage was dedicated to understanding the algorithm rather than trying to code without understanding, which failed. (I didn't implement stochastic gradient descent as suggested by the book because I noticed that it yeilded worse results than simple gradient descent)
 
