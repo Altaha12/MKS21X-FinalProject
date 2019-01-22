@@ -22,7 +22,7 @@ How to Compile/Run:
           >>Run in Terminal.
           
           
-Note: There should be a greater rate of accuracy with the images I created because of the way the network it was trained. It was trained to recognize examples in the MNIST DataSet and has acheived an accuracy rate of 93% was that data set. I however believe that because I didn't implement a technique called dropout, the network was overfitted to these examples. My final Product is a Neuralwork saved as a serialized object that is for all practical purposes a linear function. Most of the code in the class was for me to develop the neural network and has no implications for the user.
+Note: A commented version of the code is available at NeuralNetwork1.java. There should be a greater rate of accuracy with the images I created because of the way the network it was trained. It was trained to recognize examples in the MNIST DataSet and has acheived an accuracy rate of 93% was that data set. I however believe that because I didn't implement a technique called dropout, the network was overfitted to these examples. My final Product is a Neuralwork saved as a serialized object that is for all practical purposes a linear function. Most of the code in the class was for me to develop the neural network and has no implications for the user.
 
 Example with Running the Network on a file named apcs.png:"java NeuralNetwork apcs.png False"
 
@@ -56,3 +56,4 @@ Log:
 
 
 Note: A lot of the work was planning on paper so as to understand the math behind the NeuralNetwork. That planning allowed for quick development that didn't require alot of debugging. Thus I have few commits because the code was the easy part of this project and most of the time was dedicated to either testing different network structures or planning, neither involved any changes to the code but changing the parameters when constructing a neural Network in the main() method.
+
